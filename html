@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Commander de la nourriture</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Commander de la nourriture</h2>
+		<form>
+			<div class="form-group">
+				<label for="nom">Nom:</label>
+				<input type="text" class="form-control" id="nom" name="nom">
+			</div>
+			<div class="form-group">
+				<label for="prenom">Prénom:</label>
+				<input type="text" class="form-control" id="prenom" name="prenom">
+			</div>
+			<div class="form-group">
+				<label for="jour">Jour de la commande:</label>
+				<input type="date" class="form-control" id="jour" name="jour" required>
+			</div>
+			<div class="form-group">
+				<label>Restaurant:</label>
+				<p>Restaurant XYZ</p>
+			</div>
+			<div class="form-group">
+				<label>Choisir un menu:</label>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu1" required>Menu 1</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu2">Menu 2</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu3">Menu 3</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu4">Menu 4</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu5">Menu 5</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu6">Menu 6</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="menu" value="menu7">Menu 7</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="quantite">Quantité (max. 1):</label>
+				<input type="number" class="form-control" id="quantite" name="quantite" min="1" max="1">
+			</div>
+			<div class="form-group">
+				<label for="instructions">Instructions spéciales:</label>
+				<textarea class="form-control" rows="5" id="instructions" name="instructions
